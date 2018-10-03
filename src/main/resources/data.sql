@@ -1,13 +1,13 @@
 -- Remplissage des commandes
 insert into T_COMMANDS (command_name,command_owner,process_type,day_of_week,chase_group_id,chase_time)
-values ('Folder#AR_constat_Daily','ahmed.dammak','AR-Constat (Gen)','1,2,3,4,5','g1',10) ;
+values ('folder 1','ahmed.dammak','AR 1','1,2,3,4,5','g1',10) ;
 
 insert into T_COMMANDS (command_name,command_owner,process_type,day_of_week,chase_group_id,chase_time)
-values ('Folder#7X-weekly','ser-exo','VE','2','g2',10) ;
+values ('Folder 2','owner','VE','2','g2',10) ;
 
 -- Remplissage des users
 insert into T_USERS (seasame_id,email,windows_id,indiana_id)
-values ('ahmed.dammak','ahmed.dammak-ext@sgcib.com','adammak120215','AAAAA') ;
+values ('ahmed.dammak','ahmed.dammak@mon-mail.com','aaa','AAAAA') ;
 
 
 -- Remplissage des alertes
